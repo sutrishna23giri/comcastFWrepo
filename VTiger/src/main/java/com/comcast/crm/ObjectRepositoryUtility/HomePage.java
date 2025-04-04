@@ -76,6 +76,7 @@ public class HomePage {
 		return signOutLink;
 	}
 	
+	
 	public void navigateTocampainPage()
 	{
 		Actions act = new Actions(driver);
