@@ -30,6 +30,9 @@ public class HomePage {
 	@FindBy(linkText="Campaigns")
 	private WebElement CampaignLink;
 	
+	@FindBy(linkText="Products")
+	private WebElement ProductsLink;
+
 	@FindBy(linkText="More")
 	private WebElement moreLink;
 	
@@ -59,6 +62,10 @@ public class HomePage {
 	
 	public WebElement getOpportunitieslink() {
 		return Opportunitieslink;
+	}
+	
+	public WebElement getProductsLink() {
+		return ProductsLink;
 	}
 	
 	public WebElement getAdminImg() {
